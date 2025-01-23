@@ -7,7 +7,7 @@ header {
     text-align: right;
 }
 
-eden-image{
+#eden-image{
     width:auto;
     height: auto;
     text-align: right;
@@ -16,13 +16,13 @@ eden-image{
 
 .nav-items{
     background-color: black;
-    overflow:hidden;
+    overflow: hidden;
     text-align: center;
 }
 
-.nav-items li{
-    color: white;
+.nav-items a {
     float: left;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
