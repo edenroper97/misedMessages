@@ -1,0 +1,9 @@
+.nav-items{
+    background-color: black;
+    overflow:hidden;
+}
+
+.nav-items li{
+    color: white;
+    
+}
