@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+    <html lang = "en">
+<head>
+
+    <title>Home Page</title>
+    <meta charset= "utf-8">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+     <style>
+         body{
+            background-color: black;
+
+         }
+
+         h2{background-color: black ;}
+        
+
+     </style>
+
+</head>
+
+<body>
+
+    <header></header>
+
+    <nav><a href="index.html">Home</a> <br> </nav>
+    
+    <main>
+       
+        <h1 style="color: green; background-color: purple">Module 4</h1>
+      
+        <h2>This is an example of the external style sheet</h2>
+       
+        <!--The inline style overrides the embeded black style sheet... T
+        This is why module 4 is in green and purple and not black-->
+
+        <p id="container">This is an example of a paragraph element with an iD of container. </p> 
+        <!-- lesson 4.8 - ID vs Class
+          This is incorrect as an example from 4.8...
+          You can't use container twice!
+          It will come up with an error...
+          You need to put it as a class instead of iD-->
+        <p id="container">Test</p>
+
+        <h3 class="accent">This is the accented heading.</h3>
+        <p class="accent">This is a accented paragraph.</p>
+      
+        <!-- This div element has a differetn style than the other h2 colour white.-->
+        <div id="divelement">This is the <span class="accent">descendant</span> div element</div>
+
+
+    </main>
+    
+
+    <footer>This is a test</footer>
+
+   
+</body>
+
+
+
+    </html>

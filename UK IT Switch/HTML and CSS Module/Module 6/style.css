@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(white,black);
+}
+
+
+
+header img {
+     width:100%; 
+     /*This makes it 100% of the view port no matter the device*/
+    height:auto;
+     /*This will changed it based on the size of the view port*/
+
+     max-width: 500px;
+     }
+
+ nav ul li {list-style-type: none;}
+
+ nav{  
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius:1.0em ; 
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    margin-bottom: 1em; /*This spaces betweene elements*/
+}
+
+main{ 
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius:1.0em ;
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    margin-bottom: 1em; /*This spaces betweene elements*/
+    
+}
+
+footer {
+
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    border-radius:1.0em ;
+     /*This spaces betweene elements*/
+}

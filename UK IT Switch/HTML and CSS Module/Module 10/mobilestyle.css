@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 640px) {
+
+    nav ul li  { border-radius: 1em; }
+    
+nav {border-radius:1.0em ; 
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/}
+
+    .tablet{
+        display: none;
+    }
+
+    .desktop{display: none;}
+
+}
+
+
+
+footer {
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius:1.0em;
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+}

@@ -1,0 +1,7 @@
+Embed a video or playlist
+On a computer, go to the YouTube video or playlist that you want to embed.
+Click SHARE .
+From the list of Share options, click Embed.
+From the box that appears, copy the HTML code.
+Paste the code into your website HTML.
+For network administrators: You'll need to add youtube.com to the firewall allowlist.

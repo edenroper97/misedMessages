@@ -1,0 +1,143 @@
+body{
+    background-image: linear-gradient(white,black);
+}
+
+
+
+header img {
+     width:100%; 
+     /*This makes it 100% of the view port no matter the device*/
+    height:auto;
+     /*This will changed it based on the size of the view port*/
+
+     max-width: 500px;
+     }
+
+
+
+ nav{  
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius:1.0em ; 
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    margin-bottom: 1em; /*This spaces betweene elements*/
+
+    font-weight: bold; 
+    text-align: center;
+    
+}
+
+nav ul {
+padding: 0;
+margin-top: 0.2em;
+margin-bottom: 0.2em;
+
+}
+
+nav ul li {
+    
+    background: black;
+    padding: 1em;
+    min-width: 12%;
+    margin:0.25em;
+
+    list-style-type: none; /*this removes bullet points*/
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    /*this removes underline on hyperlink*/
+ }
+
+main{ 
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    border-radius:1.0em ;
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    margin-bottom: 1em; /*This spaces betweene elements*/
+
+   
+}
+
+footer {
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black;
+    /*This rounds the corner  of elements
+    - usefull for buttons etc*/
+    border-radius:1.0em ;
+     /*This spaces betweene elements*/
+}
+
+
+
+/*Begin Mobile Screen*/
+@media screen and (max-width: 639px) {
+
+    nav ul li {
+               border-radius: 1em;
+
+    }
+
+}
+
+
+
+/*End Mobile Screen*/
+
+
+
+/*Begin Tablet Screen*/
+@media screen and (min-width: 640px) {
+
+    nav ul li {
+            display: inline-block;/*this lists items horozintally*/
+             border-radius: 1em;
+
+    }
+
+}
+
+/*End Tablet Screen*/
+
+
+
+/*Begin Desktop Screen*/
+@media screen and (min-width: 961px) {
+
+    header {
+             text-align: left;
+
+    }
+
+    header img{width: auto; 
+    height: 5em}
+
+    nav
+                {margin-top: -5.1em; 
+                /*This moves nav element above where it would normally be */
+                float:right;
+                 /*This floats the nav element to the right side of the page*/
+                width:60%; 
+                  }
+
+
+    nav ul li {
+            display: inline-block;/*this lists items horozintally*/
+             border-radius: 1em;
+             
+
+
+    }
+
+}
+
+
+
+/*End Desktop Screen*/
