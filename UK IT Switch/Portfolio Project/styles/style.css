@@ -14,14 +14,20 @@ header {
 
 }
 
-.nav-items{
+.nav-items {
     background-color: black;
+    list-style-type: none;
     overflow: hidden;
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-items li {
+    display: inline-block;
 }
 
 .nav-items a {
-    float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -29,7 +35,13 @@ header {
     font-size: 16px;
 }
 
-.nav-items:hover {
+.nav-items a:hover {
     background-color: black;
     color: red;
 }
+
+.nav-item a.active {
+    background-color: blue;
+    color: yellow;
+}
+
