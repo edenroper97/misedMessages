@@ -1,12 +1,23 @@
 body{
     background-color: black;
     color: white;
-    
+}
+
+header {
+    text-align: right;
+}
+
+eden-image{
+    width:auto;
+    height: auto;
+    text-align: right;
+
 }
 
 .nav-items{
     background-color: black;
     overflow:hidden;
+    text-align: center;
 }
 
 .nav-items li{
@@ -19,6 +30,6 @@ body{
 }
 
 .nav-items:hover {
-    background-color: red;
-    color: black;
+    background-color: black;
+    color: red;
 }
